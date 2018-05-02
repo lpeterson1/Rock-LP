@@ -10,5 +10,5 @@
 ^FB200,7,0,L^FT20,430^A0R,39,38^FD2^FS
 ^FT45,20^A0R,23,24^FDFor the safety of your child, you must present this receipt when picking^FS
 ^FT20,20^A0R,23,24^FDup your child. If you lose this please see the area director.^FS
-^LRY^FO306,0^GB100,0,812^FS^LRN
-^PQ1,0,1,Y^XZ
+^FRY^FO306,0^GB100,0,812^FS^FRN
+^XZ
