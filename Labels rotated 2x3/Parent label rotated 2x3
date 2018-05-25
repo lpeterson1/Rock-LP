@@ -9,5 +9,5 @@
 ^FB300,5,0,L^FT125,10^A0R,35,35^FD1^FS
 ^FB300,5,0,L^FT125,310^A0R,35,35^FD2^FS
 ^FT15,15^FB600,2^A0R,23,20^FDFor the safety of your child, you must present this receipt when picking up your child. If you lose this please see the area director.^FS
-^FRY^FO306,0^GB100,0,650^FS^FRN
+^FR^FO306,0^GB100,0,650^FS
 ^XZ
