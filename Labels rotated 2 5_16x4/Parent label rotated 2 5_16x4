@@ -6,8 +6,8 @@
 ^LL840
 ^LS0
 ^FT406,50^A0R,73,72^FB800,0,0,L^FDChild Pickup Receipt^FS
-^FB200,7,0,L^FT70,50^A0R,39,38^FD1^FS
-^FB200,7,0,L^FT70,450^A0R,39,38^FD2^FS
+^FB350,6,0,L^FT70,50^A0R,39,38^FD1^FS
+^FB350,6,0,L^FT70,450^A0R,39,38^FD2^FS
 ^FT55,40^A0R,23,24^FDFor the safety of your child, you must present this receipt when picking^FS
 ^FT30,40^A0R,23,24^FDup your child. If you lose this please see the area director.^FS
 ^FR^FO376,15^GB100,0,812^FS
