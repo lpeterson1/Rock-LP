@@ -1,10 +1,16 @@
+^FX Name tag ^FS
+
+^FX Configure printer (set JSN=tear-off, JSB=cutter) ^FS
 ^XA~TA000~JSx^LT0^MNW^MTD^PON^PMN^LH0,0^JMA^PR6,6~SD15^LRN^CI28^XZ
+
 ^XA
+^FX Set cutter mode (MMC=cutter, MMT=tear-off) ^FS
 ^MMx
+^FX Print width & length ^FS
 ^PW812
 ^LL0406
-^LS0
 ^FT16,256^A0,135,146^FDNickName^FS
 ^FT18,328^A0,56,55^FDLastName^FS
+^FX Black bar ^FS
 ^FR^FO0,0^GB812,0,122^FS
 ^XZ
