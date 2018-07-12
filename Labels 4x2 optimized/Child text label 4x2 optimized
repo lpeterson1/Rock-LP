@@ -22,11 +22,11 @@
 
 ^FX Next two print A in a box if allergy note ^FS
 ^FO626,340^GB78,56,56^FS
-^FT626,384^A0,45,45^FB78,1,0,C^FR^FDAAA^FS
+^FT630,384^A0,45,45^FB78,1,0,C^FR^FDAAA^FS
 
 ^FX Next two print L in a box if legal note ^FS
 ^FO719,340^GB66,56,56^FS
-^FT719,384^A0,45,45^FB66,,C^FR^FDLLL^FS
+^FT740,384^A0,45,45^FB66,,C^FR^FDLLL^FS
 
 ^^FX Prints B for birthday ^FS
 ^FT276,90^A0,102,100^FD2^FS
