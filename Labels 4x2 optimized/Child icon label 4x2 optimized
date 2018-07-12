@@ -1,24 +1,24 @@
 ^FX Child Label (Icon) ^FS
 
-^FX FOx,y = Field Object origin (upper left corner)
+^FX FOx,y = Field Origin (upper left corner)
 FTx,y = Field Typeset origin (lower left corner)
-A0,h,w specifies font (0) and max char h and w
-FB333,n,R is a 333-dot-wide n-line right justified text block
-FD & FS = start and end of field data 
+A0,h,w specifies font (0) and max char height and width
+FB333,3,R is a 333-dot-wide 3-line right justified text block
+FD & FS are start and end of field data 
 Comments from FX to FS may be removed to optimize label ^FS
 
-^FX Configure printer (set JSN=tear-off, JSB=cutter) ^FS
+^FX Configure printer (change JSx to JSN: tear-off, JSB: cutter ^FS
 ^XA~TA000~JSx^LT0^MNW^MTD^PON^PMN^LH0,0^JMA^PR6,6~SD15^LRN^CI28^XZ
 
 ^XA
-^FX Set cutter mode (MMC=cutter, MMT=tear-off) ^FS
+^FX Set cutter mode (MMC (cutter), MMT (tear-off) ^FS
 ^MMx
 
 ^FX Print width & length ^FS
 ^PW812
 ^LL0406
 
-^FX Set Z=Rock icon font ^FS
+^FX Set "Z" font to Rock icon font ^FS
 ^CWZ,E:ROC000.FNT
 
 ^FX Security code ^FS
@@ -30,7 +30,7 @@ Comments from FX to FS may be removed to optimize label ^FS
 ^FX Last name ^FS
 ^FT14,309^A0,45,45^FD6^FS
 
-^FX Birthday, first time icons ^FS
+^FX Birthday & first time icons ^FS
 ^FT263,82^AZ,73,73^FDB^FS
 ^FT348,81^AZ,73,73^FDF^FS
 
@@ -40,7 +40,7 @@ Comments from FX to FS may be removed to optimize label ^FS
 ^FX Person locations/times (2 lines) ^FS
 ^FB330,2^FT8,382^A0,28,28^FD9^FS
 
-^FX Allergy, legal icons^FS
+^FX Allergy & legal icons^FS
 ^FT605,383^AZ,73,73^FD7^FS
 ^FT715,386^AZ,73,73^FD8^FS
 
