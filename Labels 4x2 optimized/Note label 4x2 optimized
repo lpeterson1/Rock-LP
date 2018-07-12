@@ -1,11 +1,19 @@
+^FX Note Label ^FS
+
+^FX Configure printer (set JSN=tear-off, JSB=cutter) ^FS
 ^XA~TA000~JSx^LT0^MNW^MTD^PON^PMN^LH0,0^JMA^PR6,6~SD15^LRN^CI28^XZ
+
 ^XA
+^FX Set cutter mode (MMC=cutter, MMT=tear-off) ^FS
 ^MMx
+^FX Print width & length ^FS
 ^PW812
 ^LL0406
-^LS0
+^FX Security code ^FS
 ^FO607,18^A0,73,72^FB300,,R^FDWWW^FS
+^FX Full name ^FS
 ^FT6,122^A0,39,38^FD2^FS
+
 ^FO8,161^GB57,42,42^FS
 ^FT8,194^A0,34,33^FB57,,C^FR^FDAAA^FS
 ^FB330,3^FT427,168^A0,25,24^FD3^FS
