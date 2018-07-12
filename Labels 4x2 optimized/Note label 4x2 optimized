@@ -19,11 +19,11 @@
 
 ^FX Next two print A in a box if allergy note ^FS
 ^FO8,161^GB57,42,42^FS
-^FT8,194^A0,34,33^FB57,,C^FR^FDAAA^FS
+^FT25,194^A0,34,33^FB57,,C^FR^FDAAA^FS
 
 ^FX Next two print L in a box if legal note ^FS
 ^FO12,264^GB48,42,42^FS
-^FT12,297^A0,34,33^FB48,,C^FR^FDLLL^FS
+^FT25,297^A0,34,33^FB48,,C^FR^FDLLL^FS
 
 ^FS Location and times ^FS
 ^FB330,3^FT427,168^A0,25,24^FD3^FS
