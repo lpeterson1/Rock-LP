@@ -24,7 +24,7 @@ Comments from FX to FS may be removed to optimize label ^FS
 ^CWZ,E:ROC000.FNT
 
 ^FX Security code ^FS
-^FO470,19^A0,135,134^FB333,,R^FDWWW^FS
+^FO470,19^A0,135,134^FB333,1,R^FDWWW^FS
 
 ^FX Nickname ^FS
 ^FT12,254^A0,135,146^FD5^FS
