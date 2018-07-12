@@ -1,19 +1,34 @@
+^FX Child Label (Text)
+
+^FX Configure printer (set JSN=tear-off, JSB=cutter) ^FS
 ^XA~TA000~JSx^LT0^MNW^MTD^PON^PMN^LH0,0^JMA^PR6,6~SD15^LRN^CI28^XZ
+
 ^XA
+^FX Set cutter mode (MMC=cutter, MMT=tear-off) ^FS
 ^MMx
+^FX Print width & length ^FS
 ^PW812
 ^LL0406
-^LS0
+^FX Security code
 ^FO470,19^A0,135,134^FB333,,R^FDWWW^FS
+^FX Nickname ^FS
 ^FT5,248^A0,135,146^FD5^FS
+^FX Last name ^FS
 ^FT4,303^A0,45,45^FD6^FS
+^FX Next two print A in a box if allergy note ^FS
 ^FO626,340^GB78,56,56^FS
 ^FT626,384^A0,45,45^FB78,1,0,C^FR^FDAAA^FS
+^FX Next two print L in a box if legal note ^FS
 ^FO719,340^GB66,56,56^FS
 ^FT719,384^A0,45,45^FB66,,C^FR^FDLLL^FS
+^^FX Prints B for birthday ^FS
 ^FT276,90^A0,102,100^FD2^FS
+^FX Prints F for first time ^FS
 ^FT350,90^A0,102,100^FD3^FS
+^FX Birthday day of week ^FS
 ^FT280,130^A0,28,28^FD4^FS
+^FX Person locations and times ^FS
 ^FB330,2^FT8,382^A0,28,28^FD9^FS
+^FX Black bar ^FS
 ^FR^FO0,0^GB812,0,136^FS
 ^XZ
