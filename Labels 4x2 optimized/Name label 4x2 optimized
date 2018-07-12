@@ -6,11 +6,15 @@
 ^XA
 ^FX Set cutter mode (MMC=cutter, MMT=tear-off) ^FS
 ^MMx
+
 ^FX Print width & length ^FS
 ^PW812
 ^LL0406
+
 ^FT16,256^A0,135,146^FDNickName^FS
+
 ^FT18,328^A0,56,55^FDLastName^FS
+
 ^FX Black bar ^FS
 ^FR^FO0,0^GB812,0,122^FS
 ^XZ
