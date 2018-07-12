@@ -6,25 +6,34 @@
 ^XA
 ^FX Set cutter mode (MMC=cutter, MMT=tear-off) ^FS
 ^MMx
+
 ^FX Print width & length ^FS
 ^PW812
 ^LL0406
+
 ^FX Security code ^FS
 ^FO607,18^A0,73,72^FB300,,R^FDWWW^FS
+
 ^FX Full name ^FS
 ^FT6,122^A0,39,38^FD2^FS
+
 ^FX Next two print A in a box if allergy note ^FS
 ^FO8,161^GB57,42,42^FS
 ^FT8,194^A0,34,33^FB57,,C^FR^FDAAA^FS
-^FS Location and times ^FS
-^FB330,3^FT427,168^A0,25,24^FD3^FS
+
 ^FX Next two print L in a box if legal note ^FS
 ^FO12,264^GB48,42,42^FS
 ^FT12,297^A0,34,33^FB48,,C^FR^FDLLL^FS
+
+^FS Location and times ^FS
+^FB330,3^FT427,168^A0,25,24^FD3^FS
+
 ^FX Allergy note ^FS
 ^FB330,4,,L^FT68,250^A0,23,24^FD5^FS
+
 ^FX Legal note ^FS
 ^FB330,4,,L^FT68,354^A0,23,24^FD7^FS
+
 ^FX Note label and lines ^FS
 ^FT421,212^A0,23,24^FDNotes:^FS
 ^FO403,154^GB0,237,1^FS
@@ -32,6 +41,7 @@
 ^FO423,345^GB361,0,1^FS
 ^FO421,304^GB361,0,1^FS
 ^FO421,263^GB361,0,1^FS
+
 ^FX Black bar ^FS
 ^FR^FO0,0^GB812,0,81^FS
 ^XZ
