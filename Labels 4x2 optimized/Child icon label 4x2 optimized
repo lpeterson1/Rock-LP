@@ -11,7 +11,7 @@ Comments from FX to FS may be removed to optimize label ^FS
 ^XA~TA000~JSx^LT0^MNW^MTD^PON^PMN^LH0,0^JMA^PR6,6~SD15^LRN^CI28^XZ
 
 ^XA
-^FX Set cutter mode MMC: cutter, MMT: tear-off ^FS
+^FX Change to set cutter mode MMC: cutter, MMT: tear-off ^FS
 ^MMx
 
 ^FX Print width & length ^FS
@@ -34,15 +34,15 @@ Comments from FX to FS may be removed to optimize label ^FS
 ^FT263,82^AZ,73,73^FDB^FS
 ^FT348,81^AZ,73,73^FDF^FS
 
+^FX Allergy & legal icons ^FS
+^FT605,383^AZ,73,73^FD7^FS
+^FT715,386^AZ,73,73^FD8^FS
+
 ^FX Birthday day of week ^FS
 ^FT270,120^A0,28,28^FD4^FS
 
 ^FX Person locations/times (2 lines) ^FS
 ^FB330,2^FT8,382^A0,28,28^FD9^FS
-
-^FX Allergy & legal icons^FS
-^FT605,383^AZ,73,73^FD7^FS
-^FT715,386^AZ,73,73^FD8^FS
 
 ^FX Black bar ^FS
 ^FR^FO0,0^GB820,0,136^FS
