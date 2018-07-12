@@ -4,7 +4,7 @@
 ^XA~TA000~JSx^LT0^MNW^MTD^PON^PMN^LH0,0^JMA^PR6,6~SD15^LRN^CI28^XZ
 
 ^XA
-^FX Change to set cutter mode MMC: cutter, MMT: tear-off ^FS
+^FX Change to set cutter mode. MMC: cutter, MMT: tear-off ^FS
 ^MMx
 
 ^FX Print width & length ^FS
