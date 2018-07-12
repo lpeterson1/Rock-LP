@@ -4,7 +4,8 @@
 FTx,y = Field Typeset origin (lower left corner)
 A0,h,w specifies font (0) and max char height and width
 FB333,3,R is a 333-dot-wide 3-line right justified text block
-FD & FS are start and end of field data 
+FD & FS are start and end of field data
+XA and XZ begin and end label a format
 Comments from FX to FS may be removed to optimize label ^FS
 
 ^FX Configure printer (change JSx to JSN: tear-off, JSB: cutter) ^FS
