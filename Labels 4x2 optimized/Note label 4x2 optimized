@@ -1,10 +1,10 @@
 ^FX Note Label ^FS
 
-^FX Configure printer (set JSN=tear-off, JSB=cutter) ^FS
+^FX Configure printer (change JSx to JSN: tear-off, JSB: cutter) ^FS
 ^XA~TA000~JSx^LT0^MNW^MTD^PON^PMN^LH0,0^JMA^PR6,6~SD15^LRN^CI28^XZ
 
 ^XA
-^FX Set cutter mode (MMC=cutter, MMT=tear-off) ^FS
+^FX Set cutter mode MMC: cutter, MMT: tear-off ^FS
 ^MMx
 
 ^FX Print width & length ^FS
@@ -17,11 +17,11 @@
 ^FX Full name ^FS
 ^FT6,122^A0,39,38^FD2^FS
 
-^FX Next two print A in a box if allergy note ^FS
+^FX Next two print "A" in a box if allergy note ^FS
 ^FO8,161^GB57,42,42^FS
 ^FT25,194^A0,34,33^FB57,,C^FR^FDAAA^FS
 
-^FX Next two print L in a box if legal note ^FS
+^FX Next two print "L" in a box if legal note ^FS
 ^FO12,264^GB48,42,42^FS
 ^FT25,297^A0,34,33^FB48,,C^FR^FDLLL^FS
 
@@ -34,7 +34,7 @@
 ^FX Legal note ^FS
 ^FB330,4,,L^FT68,354^A0,23,24^FD7^FS
 
-^FX Note label and lines ^FS
+^FX "Notes:" label and lines ^FS
 ^FT421,212^A0,23,24^FDNotes:^FS
 ^FO403,154^GB0,237,1^FS
 ^FO422,386^GB361,0,1^FS
