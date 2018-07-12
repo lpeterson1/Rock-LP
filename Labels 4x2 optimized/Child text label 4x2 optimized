@@ -29,10 +29,10 @@
 ^FT740,384^A0,45,45^FB66,,C^FR^FDLLL^FS
 
 ^^FX Prints B for birthday ^FS
-^FT276,90^A0,102,100^FD2^FS
+^FT276,93^A0,102,100^FD2^FS
 
 ^FX Prints F for first time ^FS
-^FT350,90^A0,102,100^FD3^FS
+^FT350,93^A0,102,100^FD3^FS
 
 ^FX Birthday day of week ^FS
 ^FT280,130^A0,28,28^FD4^FS
