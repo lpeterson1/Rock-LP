@@ -7,11 +7,11 @@ FB333,3,R is a 333-dot-wide 3-line right justified text block
 FD & FS are start and end of field data 
 Comments from FX to FS may be removed to optimize label ^FS
 
-^FX Configure printer (change JSx to JSN: tear-off, JSB: cutter ^FS
+^FX Configure printer (change JSx to JSN: tear-off, JSB: cutter) ^FS
 ^XA~TA000~JSx^LT0^MNW^MTD^PON^PMN^LH0,0^JMA^PR6,6~SD15^LRN^CI28^XZ
 
 ^XA
-^FX Set cutter mode (MMC (cutter), MMT (tear-off) ^FS
+^FX Set cutter mode MMC: cutter, MMT: tear-off ^FS
 ^MMx
 
 ^FX Print width & length ^FS
