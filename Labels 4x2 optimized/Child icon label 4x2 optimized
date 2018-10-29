@@ -1,19 +1,24 @@
 ^FX Child Label (Icon) ^FS
 
-^FX FOx,y = Field Origin (upper left corner)
-FTx,y = Field Typeset origin (lower left corner)
+^FX
 Label origin (0,0) is upper left corner of label
-A0,h,w specifies font (0) and max char height and width
-FB333,3,R is a 333-dot-wide 3-line right justified text block
+FOx,y = Field Origin (upper left corner of object)
+FTx,y = Field Typeset origin (lower left corner of field)
+
+A0o,h,w specifies font (0), orientation and max char height and width
+FB333,3,0,R is a 333-dot-wide 3-line right justified text block
 FD & FS are start and end of field data
-XA and XZ begin and end a label format
+XA and XZ begin and end a label
 Comments from FX to FS may be removed to optimize label ^FS
 
-^FX Configure printer (change JSx to JSN: tear-off, JSB: cutter) ^FS
+^FX Next line configures printer (change JSx to JSN: tear-off, JSB: cutter)
+Darkness can be adjusted (SD0 to SD30) (lower is better for printhead life)
+Print rate should be PR6,6 for max speed^FS
+
 ^XA~TA000~JSx^LT0^MNW^MTD^PON^PMN^LH0,0^JMA^PR6,6~SD15^LRN^CI28^XZ
 
 ^XA
-^FX Change to set cutter mode. MMC: cutter, MMT: tear-off ^FS
+^FX Change (x) to set cutter mode. MMC: cutter, MMT: tear-off ^FS
 ^MMx
 
 ^FX Print width & length ^FS
@@ -24,7 +29,7 @@ Comments from FX to FS may be removed to optimize label ^FS
 ^CWZ,E:ROC000.FNT
 
 ^FX Security code ^FS
-^FO470,19^A0,135,134^FB333,1,R^FDWWW^FS
+^FO470,19^A0,135,134^FB333,1,0,R^FDWWW^FS
 
 ^FX Nickname ^FS
 ^FT12,254^A0,135,146^FD5^FS
