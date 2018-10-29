@@ -12,21 +12,21 @@
 ^LL0406
 
 ^FX Security code ^FS
-^FO607,18^A0,73,72^FB300,,R^FDWWW^FS
+^FO607,18^A0,73,72^FB300,1,0,R^FDWWW^FS
 
 ^FX Full name ^FS
 ^FT6,122^A0,39,38^FD2^FS
 
 ^FX Next two print "A" in a box if allergy note ^FS
 ^FO8,161^GB57,42,42^FS
-^FT25,194^A0,34,33^FB57,1,C^FR^FDAAA^FS
+^FT25,194^A0,34,33^FB57,1,0,C^FR^FDAAA^FS
 
 ^FX Allergy note ^FS
 ^FB330,4,,L^FT68,250^A0,23,24^FD5^FS
 
 ^FX Next two print "L" in a box if legal note ^FS
 ^FO8,264^GB57,42,42^FS
-^FT25,297^A0,34,33^FB57,1,C^FR^FDLLL^FS
+^FT25,297^A0,34,33^FB57,1,0,C^FR^FDLLL^FS
 
 ^FX Legal note ^FS
 ^FB330,4,,L^FT68,354^A0,23,24^FD7^FS
