@@ -19,14 +19,14 @@
 
 ^FX Next two print "A" in a box if allergy note ^FS
 ^FO8,161^GB57,42,42^FS
-^FT25,194^A0,34,33^FB57,1,0,C^FR^FDAAA^FS
+^FT8,194^A0,34,33^FB57,1,0,C^FR^FDAAA^FS
 
 ^FX Allergy note ^FS
 ^FB330,4,,L^FT68,250^A0,23,24^FD5^FS
 
 ^FX Next two print "L" in a box if legal note ^FS
 ^FO8,264^GB57,42,42^FS
-^FT25,297^A0,34,33^FB57,1,0,C^FR^FDLLL^FS
+^FT8,297^A0,34,33^FB57,1,0,C^FR^FDLLL^FS
 
 ^FX Legal note ^FS
 ^FB330,4,,L^FT68,354^A0,23,24^FD7^FS
