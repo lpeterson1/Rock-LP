@@ -50,7 +50,7 @@ Print rate should be PR6,6 for max speed^FS
 ^FT270,120^A0,28,28^FD4^FS
 
 ^FX Person locations/times (2 lines) ^FS
-^FB330,2^FT8,382^A0,28,28^FD9^FS
+^FB550,2^FT8,382^A0,28,28^FD9^FS
 
 ^FX Black bar ^FS
 ^FR^FO0,0^GB820,0,136^FS
