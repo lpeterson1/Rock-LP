@@ -1,6 +1,7 @@
 ^FX Child Label (Icon) ^FS
 
 ^FX
+Notes:
 Label origin (0,0) is upper left corner of label
 FOx,y = Field Origin (upper left corner of object)
 FTx,y = Field Typeset origin (lower left corner of field)
