@@ -2,15 +2,14 @@
 
 ^FX
 Notes:
+Comments from FX to FS may be removed to optimize label 
 Label origin (0,0) is upper left corner of label
 FOx,y = Field Origin (upper left corner of object)
 FTx,y = Field Typeset origin (lower left corner of field)
-
 A0o,h,w specifies font (0), orientation and max char height and width
-FB333,3,0,R is a 333-dot-wide 3-line right justified text block
+FB333,3,0,R is a 333-dot-wide, 3-line, right-justified text block
 FD & FS are start and end of field data
-XA and XZ begin and end a label
-Comments from FX to FS may be removed to optimize label ^FS
+XA and XZ begin and end a label^FS
 
 ^FX Next line configures printer (change JSx to JSN: tear-off, JSB: cutter)
 Darkness can be adjusted (SD0 to SD30) (lower is better for printhead life)
@@ -33,7 +32,7 @@ Print rate should be PR6,6 for max speed^FS
 ^FO470,19^A0,135,134^FB333,1,0,R^FDWWW^FS
 
 ^FX Nickname ^FS
-^FT12,254^A0,135,146^FD5^FS
+^FT12,254^A0,135,135^FD5^FS
 
 ^FX Last name ^FS
 ^FT14,309^A0,45,45^FD6^FS
